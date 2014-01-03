@@ -1,0 +1,1 @@
+All numerical simulations were performed by the package `xppaut` of Bard Ermentrout (U.Pittsburg); the `gear` numerical method was employed, with tolerance 0.001, minimum steps of $t=10^{-2}$, and maximum steps of $t=1$.  The data was processed through `gnuplot` to obtain the final graphs.
