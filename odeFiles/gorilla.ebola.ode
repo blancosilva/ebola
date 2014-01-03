@@ -1,0 +1,11 @@
+# gorilla.ebola.ode
+x'=g-g*x+(a-b)*x*y
+y'=b*x*y-(a+gamma+g)*y+a*y^2
+z'=gamma*y-g*z+a*y*z
+par a=0.5,g=0.113,b=0.7,gamma=0.01
+# Notice that the parameters d and eta have dissapeared from the picture!
+# init x=0.9899,y=0.0079,z=0.0019
+init x=0.75,y=0.23,z=0.02
+@ maxstor=20000
+done
+
